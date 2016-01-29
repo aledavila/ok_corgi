@@ -18,7 +18,9 @@ router.get('/', function(req, res, next) {
     res.render('index', {
       dogs: dog
     });
+
   });
+
 });
 
 router.get('/likes', function(req, res, next) {
