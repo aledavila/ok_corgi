@@ -2,19 +2,21 @@
 
   <section class="row">
     <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 main-corgi">
-      
 
 
-      <h2>Do you like <%= dogs[0].name %> </h2>
-      <img src="<%= dogs[0].image %>" alt="" class="corgi-banner img-responsive">
-      <button id="paw-left">Paw Left</button>
-      <button id="paw-right">Paw Right</button>
+      <h2 id='matches'>Matches: </h2>
+      <div class='matches'>
+        <h3 id='dog'>Do you like <%= dogs[0].name %> ?</h2>
+        <img src="<%= dogs[0].image %>" alt="" class="corgi-banner img-responsive">
+        <button type="button" class="btn btn-default" id="paw-left">Paw Left</button>
+        <button type="button" class="btn btn-default" id="paw-right">Paw Right</button>
+      </div>
 
     </div>
   </section>
 
-  <section>
-    <h3>Dogs You've Liked</h3>
+  <section class='liked'>
+    <h2>Dogs You've Liked:</h3>
     <ul><!-- LIKED DOG NAMES/PICS CAN GO HERE --></ul>
   </section>
 

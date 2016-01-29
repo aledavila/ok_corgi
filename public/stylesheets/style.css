@@ -1,4 +1,87 @@
+body {
+  font-size: 14px;
+}
+
+.jumbotron {
+  background-color: #2A9D8F;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+i {
+  float: right;
+  font-weight: 300;
+}
+
+
+h2 {
+  color: #E76F51;
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+h2#matches {
+  margin-bottom: 5%;
+}
+
+h3 {
+  margin-bottom: 2%;
+  color: #264653;
+}
+
+button {
+  margin-top: 2%;
+}
+
+.liked {
+  margin: 5% 0;
+  padding-left: 25%;
+  mar
+}
+
 .corgi-banner{
   max-width: 100%;
   height: auto;
 }
+
+img {
+  text-align: center;
+}
+
+#footer {
+  background-color: #2A9D8F;
+  height: 60px;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+}
+
+/*.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}*/
+
+.continer.credit {
+  margin: 20px 0;
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 20px;
+  font-family: 'Oxygen', sans-serif;
+  color: white;
+}
+/*font-family: 'Oxygen', sans-serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Lato', sans-serif;*/
