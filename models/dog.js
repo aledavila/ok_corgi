@@ -13,5 +13,6 @@ var corgiSchema = new mongoose.Schema({
 
 var Corgi = mongoose.model('Corgi', corgiSchema);
 // Make this available to our other files
-module.exports = Compliment;
+
+module.exports = Corgi;
 // Dog model w/ Mongoose
