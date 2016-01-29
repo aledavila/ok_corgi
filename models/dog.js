@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 
 // var Schema = mongoose.Schema;
 
-var corgiSchema = new mongoose.Schema({
+var dogSchema = new mongoose.Schema({
   name: { type: String, required: true },
   age: { type: String, required: true },
   image: { type: String, required: true },
@@ -11,8 +11,8 @@ var corgiSchema = new mongoose.Schema({
 });
 
 
-var Corgi = mongoose.model('Corgi', corgiSchema);
+var Dog = mongoose.model('Dog', dogSchema);
 // Make this available to our other files
 
-module.exports = Corgi;
+module.exports = Dog;
 // Dog model w/ Mongoose
