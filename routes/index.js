@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var Dog = require('../models/dog')
+var Dog = require('../models/dog');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -17,5 +17,9 @@ router.get('/', function(req, res, next) {
 
 
 });
+
+router.get('/likes', function(req, res, next) {
+  res.render('show');
+})
 
 module.exports = router;
