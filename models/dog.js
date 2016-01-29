@@ -5,7 +5,8 @@ var mongoose = require('mongoose');
 var corgiSchema = new mongoose.Schema({
   name: { type: String, required: true },
   age: { type: String, required: true },
-  image: { type: String, required: true }
+  image: { type: String, required: true },
+  aboutMe: String
 
 });
 
