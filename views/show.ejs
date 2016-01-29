@@ -3,22 +3,15 @@
   <section class="row">
     <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 main-corgi">
       
-      <% for (var i = 0; i < dogs.length; i++) { %>
 
 
-      <h2>Do you like <%= dogs[i].name %> </h2>
-      <img src="<%= dogs[i].image %>" alt="" class="corgi-banner img-responsive">
+      <h2><%= array %></h2>
+      <img src="" alt="" class="corgi-banner img-responsive">
       <button id="paw-left">Paw Left</button>
       <button id="paw-right">Paw Right</button>
       
-      <% } %>
 
     </div>
-  </section>
-
-  <section>
-    <h3>Dogs You've Liked</h3>
-    <ul><!-- LIKED DOG NAMES/PICS CAN GO HERE --></ul>
   </section>
 
 <% include ./partials/footer %>
