@@ -25,6 +25,7 @@ router.get('/', function(req, res, next) {
 
 router.get('/likes', function(req, res, next) {
   res.render('show');
+  console.log('like clicked!')
 })
 
 module.exports = router;
