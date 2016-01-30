@@ -1,5 +1,4 @@
 $(function() {
-<<<<<<< HEAD
 
   var likes = [];
 
